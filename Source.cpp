@@ -94,20 +94,7 @@ int main()
 		cout << "-------------------------------------------------" << endl;
 
 
-		if (joe.GetScore() == 0 && sid.GetScore() == 0)
-		{
-			joe.drawsOnSets++;
-			sid.drawsOnSets++;
-		}
-		else if (joe.GetScore() == 0)
-			joe.setsWon++;
-		else
-			sid.setsWon++;
-
-		cout << "Set finished" << endl;
-		cout << "joe sets won: " << joe.setsWon << endl;
-		cout << "sid sets won: " << sid.setsWon << endl;
-		
+	
 	}
 	getchar();
 	return 0;
